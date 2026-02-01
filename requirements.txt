@@ -1,0 +1,6 @@
+pandas 
+numpy 
+seaborn
+# -e . 
+#trigger setup.py file so that it can run yo
+#this -e . will also come while u run setup.py which u dont want cuz who wants to get an error
