@@ -14,7 +14,7 @@ def index():
 @app.route("/predictdata",methods=['GET','POST'])
 def predict_datapoint():
     if request.method=='GET':
-        return render_template('Home.html')
+        return render_template('home.html')
     else: 
         ##predict pipeline class
         data=CustomData(
